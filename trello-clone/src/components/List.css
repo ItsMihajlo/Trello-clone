@@ -1,0 +1,104 @@
+.list {
+  width: 220px;
+  background-color: #ebecf0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 7px;
+  margin-bottom: 5px;
+  margin-top: 25px;
+  max-height: 650px;
+}
+
+.wrapper {
+  background-color: #ebecf0;
+  margin-left: 10px;
+  height: min-content;
+  border-radius: 7px;
+  margin-top: 15px;
+  padding: 2px 3px;
+}
+
+.simplebar-content-wrapper {
+  margin-right: 5px;
+}
+
+.delete_list {
+  border: none;
+  font-size: 20px;
+  float: right;
+  margin-top: 2px;
+}
+
+.delete_list .icons_awesome {
+  font-size: 20px;
+  color: #494545;
+}
+.delete_list:hover {
+  border: none;
+  outline: none;
+  opacity: 0.6;
+  background-color: none;
+}
+.add_card_div {
+  color: #9caac0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.add_another_card_button:hover {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.card_header {
+  padding-bottom: 10px;
+}
+
+.card_header strong {
+  float: left;
+  padding-left: 10px;
+}
+
+.add_card_button_area {
+  display: flex;
+  flex-direction: column;
+}
+
+.add_card {
+  width: 85%;
+  height: 55px;
+  background-color: #ffffff;
+  border: 1px solid rgba(173, 171, 171, 0.911);
+  border-radius: 3px;
+  font-size: 15px;
+  margin: 0 auto;
+  padding-left: 10px;
+}
+
+.add_card:focus {
+  border: 2px solid #3ab4e4c7;
+  outline: none;
+}
+
+.add_card_btn {
+  padding: 10px;
+  background-color: rgba(17, 144, 17, 0.856);
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.input_list_update {
+  margin-top: 5px;
+  padding: 5px 10px;
+  font-size: 13px;
+  border: 1px solid rgba(173, 171, 171, 0.911);
+  border-radius: 3px;
+}
+
+.input_list_update:focus {
+  border: 2px solid #3ab4e4c7;
+  outline: none;
+}

@@ -1,0 +1,54 @@
+.header_button {
+  padding: 15px 10px 10px 10px;
+  margin: 4px;
+  background-color: #ebecf036;
+  color: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.subheader_button {
+  padding: 6px;
+  margin: 4px;
+  background-color: #ebecf036;
+  color: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 20px;
+  font-size: 20px;
+}
+
+.header_button:hover {
+  background-color: #8a8c92b6;
+  cursor: default;
+}
+
+.subheader_button:hover {
+  background-color: #ebecf085;
+  cursor: default;
+}
+
+.divider_buttons {
+  float: left;
+  border-left: 1px solid hsla(0, 0%, 100%, 0.24);
+  height: 16px;
+  margin: 8px 8px 12px 4px;
+}
+
+.input_update_board {
+  margin: 2px 10px 0 0;
+  line-height: 20px;
+  font-size: 18px;
+  border: 2px solid #3ab4e4c7;
+  border-radius: 3px;
+}
+
+.input_update_board:focus {
+  border: 2px solid #3ab4e4c7;
+  outline: none;
+}

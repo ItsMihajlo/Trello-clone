@@ -1,0 +1,236 @@
+.dialog .MuiPaper-root {
+  background-color: rgb(244, 245, 247);
+  color: #9caac0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header_card {
+  display: flex;
+  margin: 30px 20px 30px 20px;
+}
+
+.header_card .icons_awesome {
+  flex: 0 0 15px;
+  float: left;
+  margin-top: 5px;
+  margin-right: 10px;
+  font-size: 18px;
+  line-height: 20px;
+  color: #494545;
+}
+
+.header_card .title {
+  flex: 1;
+  padding: 0;
+}
+
+.header_card .input_title {
+  width: 80%;
+  line-height: 20px;
+  font-size: 20px;
+  border: 2px solid rgba(17, 144, 17, 0.856);
+  border-radius: 3px;
+}
+.header_card button {
+  float: right;
+  padding: 10px;
+  background-color: rgba(17, 144, 17, 0.856);
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.desciption_card {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 20px 30px 20px;
+}
+
+.desciption_card .icons_awesome {
+  flex: 0 0 15px;
+  float: left;
+  margin-right: 10px;
+  font-size: 18px;
+  line-height: 20px;
+  color: #494545;
+}
+
+.desciption_card .description {
+  flex: 1;
+  padding: 0;
+  font-size: 15px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.desciption_card .update_description {
+  width: 90%;
+  height: 55px;
+  background-color: #80808014;
+  border: none;
+  border-radius: 3px;
+  font-size: 15px;
+  padding-left: 10px;
+}
+
+.desciption_card .update_description:focus {
+  outline: none;
+  background: #ffffff;
+  border: 2px solid rgba(17, 144, 17, 0.856);
+  height: 100px;
+}
+
+.desciption_card button {
+  float: right;
+  padding: 10px;
+  background-color: rgba(17, 144, 17, 0.856);
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.comment_card {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 20px 30px 20px;
+}
+
+.comment_card .icons_awesome {
+  flex: 0 0 15px;
+  float: left;
+  margin-right: 10px;
+  font-size: 18px;
+  line-height: 20px;
+  color: #494545;
+}
+
+.comment_card .comment {
+  flex: 1;
+  padding: 0;
+  font-size: 15px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.comment_card .update_comment {
+  width: 90%;
+  height: 55px;
+  background-color: #ffffff;
+  border: 1px solid rgba(173, 171, 171, 0.911);
+  border-radius: 3px;
+  font-size: 15px;
+  padding-left: 10px;
+}
+
+.comment_card .add_comment_btn {
+  float: right;
+  padding: 10px;
+  background-color: rgba(17, 144, 17, 0.856);
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.all_comments {
+  margin: 20px 20px 30px 20px;
+}
+
+.all_comments .author_name {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 20px;
+  margin-bottom: 5px;
+}
+
+.all_comments .message {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  background-color: #ffffff;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid rgb(173 171 171 / 40%);
+  box-shadow: 1px 2px rgb(173 171 171 / 40%);
+  min-width: 250px;
+}
+
+.delete_card button {
+  float: right;
+  margin: 20px 20px 0 20px;
+  padding: 10px;
+  background-color: rgba(144, 36, 17, 0.856);
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+button:focus {
+  border: none;
+  outline: none;
+  opacity: 0.6;
+}
+.modification_message {
+  margin-left: 10px;
+}
+.modification_message button {
+  border: none;
+  background-color: unset;
+  padding: 5px;
+  margin-right: 2px;
+  margin-top: 10px;
+}
+
+.modification_message .icons_awesome {
+  font-size: 18px;
+  line-height: 20px;
+  color: #494545;
+}
+
+.modification_message button:hover {
+  opacity: 0.5;
+}
+
+.input_comment_update {
+  margin: 2px 10px 0 0;
+  line-height: 20px;
+  font-size: 18px;
+  border: 1px solid rgba(173, 171, 171, 0.911);
+  border-radius: 3px;
+}
+
+.input_comment_update {
+  margin-top: 5px;
+  padding: 5px 10px;
+  font-size: 13px;
+  border: 1px solid rgba(173, 171, 171, 0.911);
+  border-radius: 3px;
+}
+
+.input_comment_update :focus {
+  border: 2px solid #3ab4e4c7;
+  outline: none;
+}
+
+.modification_message .update_button {
+  padding: 10px;
+  background-color: rgba(17, 144, 17, 0.856);
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-left: 10px;
+}

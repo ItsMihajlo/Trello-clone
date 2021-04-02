@@ -1,0 +1,236 @@
+.MuiTypography-body1 {
+  color: #9caac0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.popup_header {
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding-bottom: 10px;
+}
+
+.title_header {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 25px;
+  margin-bottom: 10px;
+}
+
+.subtitle_header {
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.board_popup_element {
+  display: flex;
+  margin: 15px 15px;
+  align-items: center;
+  justify-content: right;
+  height: 45px;
+}
+
+.board_popup .icon_column {
+  flex: 0 0 30px;
+  margin-right: 10px;
+  padding: 2px;
+  text-align: center;
+  line-height: 30px;
+  vertical-align: bottom;
+  border-radius: 50%;
+}
+
+.board_popup .text_column {
+  flex: 1;
+}
+
+.board_popup_element .element_title {
+  margin-bottom: 5px;
+}
+
+.element_title {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+}
+
+.element_description {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.board_popup_element .timeline {
+  color: rgb(168, 108, 193);
+  background: rgba(168, 108, 193, 0.3);
+}
+
+.board_popup_element .table {
+  color: rgb(231, 110, 177);
+  background: rgba(231, 110, 177, 0.3);
+}
+
+.board_popup_element .calendar {
+  color: rgb(2, 106, 167);
+  background: rgba(2, 106, 167, 0.3);
+}
+
+.board_popup_element .dashboard {
+  color: rgb(90, 172, 68);
+  background: rgba(90, 172, 68, 0.3);
+}
+
+.board_popup_element .map {
+  color: rgb(233, 158, 64);
+  background: rgba(233, 158, 64, 0.3);
+}
+
+.private_popup_element {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 15px;
+}
+
+.private_popup_element:hover {
+  background: rgba(202, 195, 195, 0.1);
+  cursor: default;
+}
+
+.private_popup_element .title_column:hover {
+  cursor: default;
+}
+
+.private_popup_element .description_column:hover {
+  cursor: default;
+}
+
+.private_popup_element.disable {
+  color: #ced2d9;
+}
+
+.private_popup_element.disable:hover {
+  background-color: unset;
+}
+.private_popup_element .title_column {
+  display: flex;
+  flex-direction: row;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 5px;
+}
+
+.private_popup_element .icons_awesome {
+  margin-right: 10px;
+}
+
+.private_popup_element .description_column {
+  font-size: 14px;
+  line-height: 15px;
+}
+
+.private_popup_element .private {
+  color: rgb(235, 90, 70);
+}
+
+.private_popup_element .team {
+  color: rgb(66, 82, 110);
+}
+
+.private_popup_element .organization {
+  color: rgb(206, 210, 217);
+}
+
+.private_popup_element .public {
+  color: rgb(97, 189, 79);
+}
+
+.private_popup_element .organization .element_status {
+  color: rgb(206, 210, 217);
+}
+
+.private_popup_element .checked {
+  color: black;
+  font-size: 12px;
+  font-weight: 100;
+  margin-left: auto;
+}
+
+.hidden {
+  display: none;
+}
+
+.not-hidden {
+  display: block;
+}
+
+.invite_popup {
+  height: 315px;
+  position: relative;
+}
+
+.invite_box {
+  width: 95%;
+  padding: 5px 0 5px 5px;
+  background-color: #80808014;
+  border: 2px solid #80808059;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+.invite_box:focus {
+  border: 2px solid #3ab4e4c7;
+  background-color: #ffffff;
+  outline: none;
+}
+
+.link_invite_elements {
+  display: flex;
+  flex: 0 0 50%;
+  margin-right: 8px;
+  margin-bottom: 5px;
+}
+
+.link_invite {
+  display: flex;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.link_invite .icons_awesome {
+  margin-right: 5px;
+  color: #564e4e;
+  font-size: 15px;
+}
+
+.link_invite_elements .link_column {
+  margin-left: auto;
+  font-size: 15px;
+}
+.link_invite_elements .link_column a {
+  color: #3ab4e4c7 !important;
+}
+
+.invite_popup .description {
+  font-size: 14px;
+}
+
+.invitation {
+  width: 100%;
+  height: 30px;
+  background: rgba(214, 204, 204, 0.4);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border: none;
+  border-radius: 3px;
+  color: rgba(80, 79, 79, 0.45);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+}
+
+.invitation.active {
+  background: rgba(17, 144, 17, 0.856);
+  color: #ffffff;
+}

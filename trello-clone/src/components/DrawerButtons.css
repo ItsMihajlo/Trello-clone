@@ -1,0 +1,25 @@
+.MuiPaper-root.MuiDrawer-paper.MuiDrawer-paperAnchorRight.MuiPaper-elevation16 {
+  background-color: #e6e7e9;
+}
+
+.menu_title .MuiTypography-root {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.menu_title .MuiListItem-root {
+  text-align: center;
+}
+
+.menu_title .MuiListItemIcon-root {
+  min-width: unset;
+}
+
+.menu_list .MuiListItemIcon-root {
+  min-width: unset;
+}
+
+.menu_title {
+  border-bottom: 1px solid rgba(173, 171, 171, 0.911);
+  margin: 0 10px;
+}
